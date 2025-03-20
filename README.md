@@ -2,17 +2,17 @@
 
 
 # 1. Loading Libraries
-import numpy as np                                                  # library for numerical computing like arrays, mathematical operations, and data manipulation
-import pandas as pdas                                               # Pandas is used for working with tabular data (like CSV files) and performing data analysis.
-import matplotlib.pyplot as plt                                     # Matplotlib is a library for creating static, animated, and interactive visualizations.    
-import seaborn as sns                                               # Seaborn is a statistical data visualization library built on top of Matplotlib.
-from sklearn.model_selection import train_test_split                # train_test_split is used to split data into training and testing sets.
-from sklearn.preprocessing import StandardScaler, LabelEncoder      # StandardScalar: It normalizes features by removing the mean and scaling to unit variance. 
+# import numpy as np                                                  # library for numerical computing like arrays, mathematical operations, and data manipulation
+# import pandas as pdas                                               # Pandas is used for working with tabular data (like CSV files) and performing data analysis.
+# import matplotlib.pyplot as plt                                     # Matplotlib is a library for creating static, animated, and interactive visualizations.    
+# import seaborn as sns                                               # Seaborn is a statistical data visualization library built on top of Matplotlib.
+# from sklearn.model_selection import train_test_split                # train_test_split is used to split data into training and testing sets.
+# from sklearn.preprocessing import StandardScaler, LabelEncoder      # StandardScalar: It normalizes features by removing the mean and scaling to unit variance. 
                                                                     # LabelEncoder: Converts categorical labels (e.g., "cat", "dog", "fish") into numeric values (e.g., 0, 1, 2).
-from sklearn.neural_network import MLPRegressor                     # MLPRegressor (Multi-Layer Perceptron Regressor) is a type of Neural Network for regression tasks.
+# from sklearn.neural_network import MLPRegressor                     # MLPRegressor (Multi-Layer Perceptron Regressor) is a type of Neural Network for regression tasks.
                                                                     # It learns complex relationships between input features and output values.
-from sklearn.ensemble import GradientBoostingRegressor              # GradientBoostingRegressor (GBR) is an ensemble learning method that builds multiple decision trees sequentially. 
-from sklearn.metrics import mean_absolute_error, mean_squared_error # Measures the average absolute difference between actual and predicted values.Lower MAE means better accuracy.
+# from sklearn.ensemble import GradientBoostingRegressor              # GradientBoostingRegressor (GBR) is an ensemble learning method that builds multiple decision trees sequentially. 
+# from sklearn.metrics import mean_absolute_error, mean_squared_error # Measures the average absolute difference between actual and predicted values.Lower MAE means better accuracy.
 # MSE =Similar to MAE but squares the errors before averaging.
 # Penalizes larger errors more than MAE.
 
